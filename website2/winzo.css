@@ -1,0 +1,200 @@
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #0d0d0d, #ff8c1a);
+      color: white;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: linear-gradient(to right, #000000, #ff8c1a);
+      padding: 12px 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .logo a {
+      font-size: 26px;
+      font-weight: bold;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    nav {
+      display: flex;
+      gap: 15px;
+    }
+
+    nav a {
+      color: #ffd699;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: white;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(255, 140, 26, 0.4)), url('https://cdn.winzogames.com/s3-public/winzo-hero-bg.jpg') no-repeat center/cover;
+      box-shadow: inset 0 0 80px rgba(255, 140, 26, 0.6);
+    }
+
+    .hero h1 {
+      font-size: 32px;
+      margin-bottom: 15px;
+      text-shadow: 0 0 10px #ff8c1a;
+    }
+
+    .hero p {
+      color: #ffd699;
+      margin-bottom: 25px;
+      font-size: 17px;
+    }
+
+    .hero button {
+      background: linear-gradient(to right, #ff8c1a, #000000);
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s;
+      box-shadow: 0 4px 10px rgba(255, 140, 26, 0.5);
+    }
+
+    .hero button:hover {
+      transform: scale(1.05);
+      background: linear-gradient(to right, #000000, #ff8c1a);
+    }
+
+    .section {
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    .section h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #fff;
+      text-shadow: 0 0 10px #ff8c1a;
+    }
+
+    .games {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .game {
+      width: 160px;
+      background-color: rgba(255,255,255,0.1);
+      border-radius: 12px;
+      overflow: hidden;
+      text-align: center;
+      padding-bottom: 12px;
+      transition: all 0.3s;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    }
+
+    .game:hover {
+      transform: scale(1.07);
+      background-color: rgba(255,255,255,0.15);
+      box-shadow: 0 0 15px #ff8c1a;
+    }
+
+    .game img {
+      width: 100%;
+      height: 120px;
+      object-fit: contain;
+    }
+
+    .game h4 {
+      margin: 10px 0;
+      font-size: 17px;
+    }
+
+    .game p {
+      color: #ffd699;
+      font-size: 13px;
+      margin-bottom: 8px;
+    }
+
+    .game button {
+      background: linear-gradient(to right, #ff8c1a, #000000);
+      color: white;
+      border: none;
+      padding: 8px 14px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: all 0.3s;
+      box-shadow: 0 2px 6px rgba(255, 140, 26, 0.5);
+    }
+
+    .game button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 10px #ff8c1a;
+    }
+
+    footer {
+      background: linear-gradient(to right, #000000, #ff8c1a);
+      text-align: center;
+      padding: 25px;
+      color: #ffd699;
+      font-size: 14px;
+      box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .footer-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .license-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+
+    .license-section img {
+     
+      height: 3rem;
+      border-radius: 6px;
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      margin-top: 12px;
+    }
+
+    .footer-links a {
+      color: #ffd699;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .footer-links a:hover {
+      color: white;
+      text-shadow: 0 0 10px #ff8c1a;
+    }
