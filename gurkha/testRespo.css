@@ -1,0 +1,42 @@
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .nav-links {
+                margin-top: 15px;
+                justify-content: center;
+            }
+
+            .nav-links li {
+                margin: 0 10px;
+            }
+
+            .main-content {
+                flex-direction: column;
+            }
+
+            .features {
+                flex-direction: column;
+            }
+
+            .feature {
+                min-width: 100%;
+            }
+        }
+   
+
+        @media (max-width: 480px) {
+            .nav-links {
+                flex-direction: column;
+            }
+
+            .nav-links li {
+                margin: 5px 0;
+            }
+
+            .form-title {
+                font-size: 20px;
+            }
+        }
